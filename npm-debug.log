@@ -1,0 +1,101 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-D',
+1 verbose cli   'compresss-images' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData compresss-images
+8 silly fetchNamedPackageData compresss-images
+9 silly mapToRegistry name compresss-images
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/compresss-images
+13 verbose request uri https://registry.npmjs.org/compresss-images
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 1:24:54 PM
+16 verbose request id ac7b6b0116dd42f5
+17 http request GET https://registry.npmjs.org/compresss-images
+18 http 404 https://registry.npmjs.org/compresss-images
+19 verbose headers { date: 'Mon, 16 Sep 2019 11:24:58 GMT',
+19 verbose headers   'content-type': 'application/json',
+19 verbose headers   'content-length': '21',
+19 verbose headers   connection: 'keep-alive',
+19 verbose headers   'set-cookie':
+19 verbose headers    [ '__cfduid=df28399a600e11a88f71c110e9cd99e711568633097; expires=Tue, 15-Sep-20 11:24:57 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+19 verbose headers   'cf-cache-status': 'MISS',
+19 verbose headers   'cache-control': 'max-age=300',
+19 verbose headers   'cf-ray': '51727a1c9ffed785-MRS',
+19 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+19 verbose headers   vary: 'accept-encoding, accept',
+19 verbose headers   server: 'cloudflare' }
+20 silly get cb [ 404,
+20 silly get   { date: 'Mon, 16 Sep 2019 11:24:58 GMT',
+20 silly get     'content-type': 'application/json',
+20 silly get     'content-length': '21',
+20 silly get     connection: 'keep-alive',
+20 silly get     'set-cookie':
+20 silly get      [ '__cfduid=df28399a600e11a88f71c110e9cd99e711568633097; expires=Tue, 15-Sep-20 11:24:57 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+20 silly get     'cf-cache-status': 'MISS',
+20 silly get     'cache-control': 'max-age=300',
+20 silly get     'cf-ray': '51727a1c9ffed785-MRS',
+20 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+20 silly get     vary: 'accept-encoding, accept',
+20 silly get     server: 'cloudflare' } ]
+21 silly fetchPackageMetaData Error: Not found : compresss-images
+21 silly fetchPackageMetaData     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+21 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+21 silly fetchPackageMetaData     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+21 silly fetchPackageMetaData     at Request.self.callback (/usr/share/npm/node_modules/request/request.js:198:22)
+21 silly fetchPackageMetaData     at emitTwo (events.js:126:13)
+21 silly fetchPackageMetaData     at Request.emit (events.js:214:7)
+21 silly fetchPackageMetaData     at Request.<anonymous> (/usr/share/npm/node_modules/request/request.js:1082:10)
+21 silly fetchPackageMetaData     at emitOne (events.js:121:20)
+21 silly fetchPackageMetaData     at Request.emit (events.js:211:7)
+21 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/share/npm/node_modules/request/request.js:1009:12)
+21 silly fetchPackageMetaData  error for compresss-images { Error: Not found : compresss-images
+21 silly fetchPackageMetaData     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+21 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+21 silly fetchPackageMetaData     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+21 silly fetchPackageMetaData     at Request.self.callback (/usr/share/npm/node_modules/request/request.js:198:22)
+21 silly fetchPackageMetaData     at emitTwo (events.js:126:13)
+21 silly fetchPackageMetaData     at Request.emit (events.js:214:7)
+21 silly fetchPackageMetaData     at Request.<anonymous> (/usr/share/npm/node_modules/request/request.js:1082:10)
+21 silly fetchPackageMetaData     at emitOne (events.js:121:20)
+21 silly fetchPackageMetaData     at Request.emit (events.js:211:7)
+21 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/share/npm/node_modules/request/request.js:1009:12) pkgid: 'compresss-images', statusCode: 404, code: 'E404' }
+22 silly rollbackFailedOptional Starting
+23 silly rollbackFailedOptional Finishing
+24 silly runTopLevelLifecycles Starting
+25 silly runTopLevelLifecycles Finishing
+26 silly install printInstalled
+27 verbose stack Error: Not found : compresss-images
+27 verbose stack     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+27 verbose stack     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+27 verbose stack     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+27 verbose stack     at Request.self.callback (/usr/share/npm/node_modules/request/request.js:198:22)
+27 verbose stack     at emitTwo (events.js:126:13)
+27 verbose stack     at Request.emit (events.js:214:7)
+27 verbose stack     at Request.<anonymous> (/usr/share/npm/node_modules/request/request.js:1082:10)
+27 verbose stack     at emitOne (events.js:121:20)
+27 verbose stack     at Request.emit (events.js:211:7)
+27 verbose stack     at IncomingMessage.<anonymous> (/usr/share/npm/node_modules/request/request.js:1009:12)
+28 verbose statusCode 404
+29 verbose pkgid compresss-images
+30 verbose cwd /home/hmana6399/Desktop/EP20-Reg-Backend
+31 error Linux 5.0.0-27-generic
+32 error argv "/usr/bin/node" "/usr/bin/npm" "install" "-D" "compresss-images"
+33 error node v8.10.0
+34 error npm  v3.5.2
+35 error code E404
+36 error 404 Not found : compresss-images
+37 error 404
+38 error 404 'compresss-images' is not in the npm registry.
+39 error 404 You should bug the author to publish it (or use the name yourself!)
+40 error 404 Note that you can also install from a
+41 error 404 tarball, folder, http url, or git url.
+42 verbose exit [ 1, true ]
